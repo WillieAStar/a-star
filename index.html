@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Creative - Start Bootstrap Theme</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+
+    <!-- Plugin CSS -->
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/creative.min.css" rel="stylesheet">
+
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">A Star</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">Sobre Nós</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#services">Soluções</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#portfolio">Equipe</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Contato</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header class="masthead">
+      <div class="header-content">
+        <div class="header-content-inner">
+          <h1 id="homeHeading">SOMOS ESPECIALISTAS EM BLOCKCHAIN</h1>
+          <hr>
+          <p id="mensagem">Start Bootstrap can help you build better websites using the Bootstrap CSS framework! Just download your template and start going, no strings attached!</p>
+          <a class="btn btn-primary btn-xl js-scroll-trigger" href="https://www.astarlabs.com/" target="_blank">Site Oficial</a>
+        </div>
+      </div>
+    </header>
+      
+      <script>
+        var labMensagem = document.getElementById("mensagem");
+        var codIntervalo = setInterval(trocarMensagens, 1000);
+        var num=0;
+        function trocarMensagens() {
+            labMensagem.textContent = msgSabemosTudo + arrayMensagens[num];
+            num++;
+            if(num==arrayMensagens.length){
+                num = 0;
+            }
+        }
+        var msgSabemosTudo   = "Sabemos tudo sobre ";
+        var msgBitconin      = "Bitcoin.";
+        var msgEthereum      = "Ethereum.";
+        var msgRootstock     = "Rootstock.";
+        var msgDistrLedger   = "Distributed Ledgers."
+        var msgSmartContract = "Smart Contracts.";
+        var arrayMensagens   = [msgBitconin, msgEthereum, msgRootstock, msgDistrLedger, msgSmartContract];
+    </script>
+      
+
+    <section class="bg-primary" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <h2 class="section-heading text-white">Somos um time multidisciplinar com profissionais que compartilham um mesmo desejo:
+
+criar soluções extraordinárias a partir da tecnologia.</h2>
+            <hr class="light">
+            <p id="desc" class="text-faded">Nascida sob o lema Moonshot Makers, a A Star é pautada no desejo permanente de fazer uso da tecnologia para fugir do ordinário. Nossos laboratórios de pesquisa e desenvolvimento não se limitam a conceitos ou ideias. Estamos sempre comprometidos com a entrega de resultados aplicáveis à prática acima de qualquer teoria.
+
+            Temos os melhores talentos. Somos formados por um time interdisciplinar com propósito claro. Cada aptidão individual dos integrantes está diretamente relacionada às demandas do mercado pelas soluções que criamos.
+
+            Construímos transformações a partir de código. Trabalhamos somente com a soma e a multiplicação. Trazemos como parceiras as melhores tecnologias do mundo. Nosso horizonte é a Lua e acreditamos que o mesmo deve ser verdade para sua organização.</p>
+            <a class="btn btn-default btn-xl js-scroll-trigger" href="#services">Soluções!</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading">Nossas Soluções</h2>
+            <hr class="primary">
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 text-center">
+            <div class="service-box">
+              <img src="img/solucoes/ecm-126x126.png"/>
+              <h3>ECM</h3>
+              <p class="text-muted">1º no Brasil vinculado a Blockchain</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 text-center">
+            <div class="service-box">
+              <img src="img/solucoes/diploma-126x126.png"/>
+              <h3>Diploma Digital</h3>
+              <p class="text-muted">Certificação pública em Blockchain</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 text-center">
+            <div class="service-box">
+              <img src="img/solucoes/bitcoin-1-126x126.png"/>
+              <h3>Protocolo Bitcoin</h3>
+              <p class="text-muted">Integração de sistemas legados a interfaces baseadas em Bitcoin</p>
+            </div>
+          </div>
+          
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 text-center">
+            <div class="service-box">
+              <img src="img/solucoes/smart-126x126.png"/>
+              <h3>Smart Contracts</h3>
+              <p class="text-muted">Desenvolvimento de business cases para Smart Contracts</p>
+            </div>
+          </div>
+            <div class="col-lg-4 col-md-6 text-center">
+            <div class="service-box">
+              <img src="img/solucoes/tokens-126x126.png"/>
+              <h3>Tokens Criptográficos</h3>
+              <p class="text-muted">Registro e transação de ativos via blockchain</p>
+            </div>
+          </div>
+            <div class="col-lg-4 col-md-6 text-center">
+            <div class="service-box">
+              <img src="img/solucoes/supply.jpg"/>
+              <h3>Supply Chain</h3>
+              <p class="text-muted">Sistema de cadeia de suprimentos em blockchain
+EM BREVE</p>
+            </div>
+          </div>
+        </div>
+          
+      </div>
+    </section>
+
+      <div class="call-to-action bg-dark">
+      <div class="container text-center">
+        <h2>Star Blockchain API</h2>
+        <h1>FAÇA PARTE DA REVOLUÇÃO</h1>
+          <br/>
+        <a class="btn btn-default btn-xl sr-button" href="https://github.com/astarlabs" target="_blank">Conecte-se Bitcoin API client</a>
+      </div>
+    </div>
+      
+      
+      
+    <section class="p-0" id="portfolio">
+        <div class="call-to-action bg-white">
+            <div class="container text-center">
+                <h1>Equipe</h1>
+                <br/>
+            </div>
+        </div>
+      <div class="container-fluid">
+        <div class="row no-gutter popup-gallery">
+          <div class="col-lg-3 col-sm-6">
+            <a class="portfolio-box" href="img/equipe/guilherme.png">
+              <img class="img-fluid" src="img/equipe/guilherme.png" alt="guilherme">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Diretor de Negócios
+                  </div>
+                  <div class="project-name">
+                    Guilherme Carvalho
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <a class="portfolio-box" href="img/equipe/nathalia-1.png">
+              <img class="img-fluid" src="img/equipe/nathalia-1.png" alt="Nathalia Nicoletti">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Desenvolvedora de Negócios
+                  </div>
+                  <div class="project-name">
+                    Nathalia Nicoletti
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <a class="portfolio-box" href="img/equipe/gabriel-aleixo-1.png">
+              <img class="img-fluid" src="img/equipe/gabriel-aleixo-1.png" alt="Gabriel Aleixo">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Desenvolvedor de Negócios
+                  </div>
+                  <div class="project-name">
+                    Gabriel Aleixo
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <a class="portfolio-box" href="img/equipe/alex-braz-star.png">
+              <img class="img-fluid" src="img/equipe/alex-braz-star.png" alt="Alex Braz">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    CTO
+                  </div>
+                  <div class="project-name">
+                    Alex Braz
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <a class="portfolio-box" href="img/equipe/reginaldo-costa.png">
+              <img class="img-fluid" src="img/equipe/reginaldo-costa.png" alt="Reginaldo Costa">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Back-End
+                  </div>
+                  <div class="project-name">
+                    Reginaldo Costa
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <a class="portfolio-box" href="img/equipe/euclides.png">
+              <img class="img-fluid" src="img/equipe/euclides.png" alt="Euclides Rodrgues">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Front-End Developer
+                  </div>
+                  <div class="project-name">
+                    Euclides Rodrigues
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+            <div class="col-lg-3 col-sm-6">
+            <a class="portfolio-box" href="img/equipe/emilly-porto.png">
+              <img class="img-fluid" src="img/equipe/emilly-porto.png" alt="Emilly Porto">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Front-End
+                  </div>
+                  <div class="project-name">
+                    Emilly Porto
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+            <div class="col-lg-3 col-sm-6">
+            <a class="portfolio-box" href="img/equipe/aline-silva-souza.png">
+              <img class="img-fluid" src="img/equipe/aline-silva-souza.png" alt="Aline Souza">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Designer UX/UI
+                  </div>
+                  <div class="project-name">
+                    Aline Souza
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+            <div class="col-lg-3 col-sm-6">
+            <a class="portfolio-box" href="img/equipe/jc.png">
+              <img class="img-fluid" src="img/equipe/jc.png" alt="João Carlos">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Back-End
+                  </div>
+                  <div class="project-name">
+                    João Carlos
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+            <div class="col-lg-3 col-sm-6">
+            <a class="portfolio-box" href="img/equipe/arthur.png">
+              <img class="img-fluid" src="img/equipe/arthur.png" alt="Arthur Mastropietro">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Back-End Developer Sênior
+                  </div>
+                  <div class="project-name">
+                    Arthur Mastropietro
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+            <div class="col-lg-3 col-sm-6">
+            <a class="portfolio-box" href="img/equipe/willie-150x150.png">
+              <img class="img-fluid" src="img/equipe/willie-150x150.png" alt="Willie Campos">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Full-Stack Developer
+                  </div>
+                  <div class="project-name">
+                    Willie Campos
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+
+    <section id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <h2 class="section-heading">Entenda como conectamos você à Blockchain. </h2>
+            <hr class="primary">
+            
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 ml-auto text-center">
+            <i class="fa fa-phone fa-3x sr-contact"></i>
+            <p> +55 (11) 2539-3304 <br/>
+                +55 (11) 99167-8159</p>
+          </div>
+          <div class="col-lg-4 mr-auto text-center">
+            <i class="fa fa-envelope-o fa-3x sr-contact"></i>
+            <p>
+              <a href="mailto:your-email@your-domain.com">contato@astarlabs.com</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/popper/popper.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/creative.min.js"></script>
+
+  </body>
+
+</html>
